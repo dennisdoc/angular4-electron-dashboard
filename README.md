@@ -1,6 +1,6 @@
 # [Initial Setup]
 
-1. run `clone`.
+1. run `git clone https://github.com/dennisdoc/angular4-electron-dashboard.git `.
 2. run `npm install`
 
 # [Web serve]
