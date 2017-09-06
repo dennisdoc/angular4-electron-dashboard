@@ -24,7 +24,9 @@
     <!--     Fonts and icons     -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
-    <!-- build:preJs -->
+
+    <!-- build necessary for electron -->
+      <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
     <!-- endbuild -->
 <link href="styles.acbd3ffc6faaa2aac2db.bundle.css" rel="stylesheet"/></head>
 
@@ -40,7 +42,8 @@
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 
-<!-- build:posJs -->
+<!-- build necessary for electron -->
+<script>if (window.module) module = window.module;</script>
 <!-- endbuild -->
 
 

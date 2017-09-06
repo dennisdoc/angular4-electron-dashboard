@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build.electron": "ng build --prod --aot=false --output-path ./electron/dist/dev",
-    "electron": "ng build --prod --aot=false --output-path ./electron/dist/dev && electron ./electron.js"
+    "electron": "npm run build.electron && electron ./electron.js"
   },
   "private": true,
   "dependencies": {
