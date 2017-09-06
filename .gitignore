@@ -1,0 +1,4 @@
+node_modules/
+typings/
+e2e/
+package-lock.json
