@@ -1,4 +1,4 @@
-#[Initial Setup]
+# [Initial Setup]
 
 1. run `clone`.
 2. run `npm install`
