@@ -5,8 +5,8 @@
   },
   "apps": [
     {
-      "root": "src",
-      "outDir": "dist",
+      "root": "./src",
+      "outDir": "dist/build",
       "assets": [
         "assets",
         "favicon.ico"
@@ -65,5 +65,6 @@
     "serve": {
       "port": 5555
     }
-  }
+  },
+  "stylePreprocessorOptions": { "includePaths": [ "../node_modules" ] }
 }
